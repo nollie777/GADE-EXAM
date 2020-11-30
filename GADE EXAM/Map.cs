@@ -172,7 +172,7 @@ public class Map
                     {
                         heroX = rando.Next(0, width);    //get random width
 
-                        heroY = rando.Next(0, height); //get random height 
+                        heroY = rando.Next(0, height); //get random height  
                     }
 
                     Hero tempHero = new Hero(heroX, heroY, 20, 20);
